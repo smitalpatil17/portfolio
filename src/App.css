@@ -635,44 +635,6 @@ nav {
 .cert-verify-link i { font-size: 0.65rem; margin-left: 3px; }
 
 /* ════════════════════════════════════════
-   ACHIEVEMENTS
-════════════════════════════════════════ */
-.achievements {
-  background-color: var(--secondary-dark);
-  padding: var(--spacing-xl) 0;
-}
-
-.achievements-list { max-width: 800px; margin: 0 auto; }
-
-.achievement-item {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: var(--spacing-m);
-  padding: var(--spacing-m);
-  background-color: var(--tertiary-dark);
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
-  transition: var(--transition);
-  border: 1px solid var(--border-color);
-}
-.achievement-item:hover { transform: translateY(-5px); box-shadow: 0 15px 30px -10px rgba(0,0,0,0.8); }
-
-.achievement-icon {
-  background: linear-gradient(145deg, var(--accent-color), var(--accent-color-3));
-  color: #000;
-  width: 50px; height: 50px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: var(--spacing-s);
-  flex-shrink: 0;
-}
-.achievement-icon i { font-size: 1.4rem; }
-.achievement-content h3 { margin-bottom: 4px; color: var(--text-primary); }
-.achievement-content p  { color: var(--text-secondary); margin-bottom: 0; }
-
-/* ════════════════════════════════════════
    ARTICLES / BLOG
 ════════════════════════════════════════ */
 .article {
@@ -911,9 +873,7 @@ footer {
 
   .cta-buttons .btn { display: block; width: 100%; margin-bottom: var(--spacing-xs); margin-right: 0; }
 
-  .achievement-item,
   .contact-info-item { flex-direction: column; align-items: flex-start; }
-  .achievement-icon,
   .contact-info-item .icon { margin-bottom: var(--spacing-s); }
 
   .footer-links { flex-direction: column; gap: var(--spacing-s); }

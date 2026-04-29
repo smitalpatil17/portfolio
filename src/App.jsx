@@ -387,34 +387,6 @@ export default function App() {
       </section>
 
       {/* ══════════════════════════════
-          ACHIEVEMENTS
-      ══════════════════════════════ */}
-      <section id="achievements" className="achievements">
-        <div className="container">
-          <div className="section-header">
-            <h2>Achievements</h2>
-            <div className="underline" />
-          </div>
-          <div className="achievements-list">
-            {[
-              { icon: "fas fa-trophy", title: "CTF Competition Win", desc: "Describe your Capture The Flag competition achievement — rank, event name, and category here." },
-              { icon: "fas fa-bug", title: "Bug Bounty Hall of Fame", desc: "Acknowledged in the security hall of fame of [Company] for responsibly disclosing a critical vulnerability." },
-              { icon: "fas fa-book", title: "Published Security Research", desc: "Published research paper or article on a cybersecurity topic accepted in a reputable journal or publication." },
-              { icon: "fas fa-award", title: "TryHackMe / HackTheBox Rank", desc: "Ranked in the Global Top X% on TryHackMe / HackTheBox, showcasing expertise in CTF and real-world offensive security challenges." },
-            ].map((a) => (
-              <div className="achievement-item" key={a.title}>
-                <div className="achievement-icon"><i className={a.icon} /></div>
-                <div className="achievement-content">
-                  <h3>{a.title}</h3>
-                  <p>{a.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ══════════════════════════════
           ARTICLE / BLOG
       ══════════════════════════════ */}
       <section id="article" className="article">
